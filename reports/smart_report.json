@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "n_samples": 30,
+    "n_features": 3,
+    "outlier_ratio": 0.2,
+    "mean_skew": 2.0778,
+    "density_cv": 0.8004,
+    "hopkins": 0.7918
+  },
+  "decision": {
+    "algorithm": "kmeans_flag_outliers",
+    "config": {
+      "n_clusters": 3
+    },
+    "reason": "small dataset (n=30) with 20.0% IQR outliers; preserve all customers"
+  },
+  "metrics": {
+    "silhouette": 0.5181,
+    "davies_bouldin": 0.5741
+  },
+  "retention": 1.0,
+  "outlier_count": 6
+}

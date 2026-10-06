@@ -1,0 +1,4 @@
+cluster,customers,avg_recency,avg_frequency,avg_monetary,profile
+0,6,16.666666666666668,7.0,16065.708333333334,Loyalists
+1,23,39.95652173913044,2.5217391304347827,1539.054347826087,Intermittent
+2,1,218.0,1.0,36.0,At-Risk

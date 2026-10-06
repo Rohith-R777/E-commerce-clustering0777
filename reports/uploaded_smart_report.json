@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "n_samples": 30,
+    "n_features": 3,
+    "outlier_ratio": 0.0333,
+    "mean_skew": 1.0414,
+    "density_cv": 0.958,
+    "hopkins": 0.66
+  },
+  "decision": {
+    "algorithm": "kmeans",
+    "config": {
+      "n_clusters": 3
+    },
+    "reason": "small dataset (n=30) with low outlier ratio; DBSCAN density is unreliable"
+  },
+  "metrics": {
+    "silhouette": 0.5262,
+    "davies_bouldin": 0.5088
+  },
+  "retention": 1.0,
+  "outlier_count": 0
+}
